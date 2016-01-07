@@ -8,15 +8,15 @@ sonarqube {
         property 'sonar.login', 'admin'
         property 'sonar.password', 'admin'
 
-        property "sonar.sources", "src"
+        property "sonar.sources", "deveryware-ios-project"
         // property "sonar.binaries", "build/classes/debug"
-        property "sonar.profile", "Android Lint"
-        property "sonar.projectKey", "deveryware-android-project:app"
-        property "sonar.projectName", "Deveryware Android Project"
+        property "sonar.profile", "Objective-C"
+        property "sonar.projectKey", "deveryware-ios-project:app"
+        property "sonar.projectName", "Deveryware iOS Project"
         property "sonar.projectVersion", "1.0-SNAPSHOT"
-        property "sonar.projectDescription", "Android Project"
+        property "sonar.projectDescription", "iOS Project"
 
         property 'sonar.import_unknown_files', true
-        property 'sonar.android.lint.report', 'build/outputs/lint-results.xml'
+        //property 'sonar.android.lint.report', 'build/outputs/lint-results.xml'
     }
 }
